@@ -3,6 +3,7 @@ package com.zzh.hotfixtest;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.taobao.sophix.SophixManager;
@@ -16,5 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
 //        Toast.makeText(this, "更新了", Toast.LENGTH_LONG).show();
         SophixManager.getInstance().queryAndLoadNewPatch();
+        // 添加
+        Log.i("zzz1", "");
     }
 }
