@@ -28,6 +28,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+    // branch1 test
     signingConfigs {
         release {
             storeFile file("demo1.jks")

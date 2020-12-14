@@ -19,5 +19,6 @@ public class MainActivity extends AppCompatActivity {
         SophixManager.getInstance().queryAndLoadNewPatch();
         // 添加
         Log.i("zzz1", "");
+        // branch1
     }
 }
