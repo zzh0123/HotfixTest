@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 //        Toast.makeText(this, "更新了", Toast.LENGTH_LONG).show();
         SophixManager.getInstance().queryAndLoadNewPatch();
         // 添加
-        Log.i("zzz1", "");
+        Log.i("zzz8888", "");
         // branch1
     }
 }
